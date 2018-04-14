@@ -79,7 +79,7 @@ if ( $_SERVER['REQUEST_METHOD'] == 'POST' )
  
         Please click this link to reset your password: 
  
-        http://localhost/shekhar/PHP_learning/PHP_training/PHPbasicsPracticalLoginSystem/reset.php?email='.$email.'&hash='.$hash;
+        http://localhost/php/php-send-mail-login-form/reset.php?email='.$email.'&hash='.$hash;
             $mail->send();
             echo 'Message has been sent';
         }

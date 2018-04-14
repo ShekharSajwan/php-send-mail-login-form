@@ -85,7 +85,7 @@ else
  
         Please click this link to activate your account: 
  
-        http://localhost/shekhar/PHP_learning/PHP_training/PHPbasicsPracticalLoginSystem/verify.php?email='.$user_email.'&hash='.$hash;
+         http://localhost/php/php-send-mail-login-form/verify.php?email='.$user_email.'&hash='.$hash;
 
             $mail->send();
             echo 'Message has been sent';
