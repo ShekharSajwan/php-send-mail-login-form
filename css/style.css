@@ -1,0 +1,64 @@
+body,html,div,h1,h2,h3,span
+{
+	margin:0px;
+	padding: 0px;
+}
+.middle-content
+{
+    margin-top: 23px;
+    max-width: 501px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.well-lg
+{
+    background:skyblue;
+}
+header,h2
+{
+    text-align: center;
+}
+h3
+{
+    font-size: 38px;
+    margin-bottom: 25px;
+}
+.nav-justified {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2
+{
+    padding: 16px;
+    font-size: 27px;
+    color: tomato;
+}
+.register-btn,.login-btn
+{
+    display: flex;
+    flex-direction: column;
+}
+.form-group a{ font-size: 15px; text-decoration: none;  }
+
+.text-warning p
+{
+    color: red;
+    font-size: 30px;
+
+}
+.well-lg p h1
+{
+    margin-top: 20px;
+}
+h1#center-item-head {
+    color: white;
+}
+
+.field-wrap
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
